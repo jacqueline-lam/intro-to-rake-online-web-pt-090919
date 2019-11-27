@@ -14,7 +14,7 @@ task :console do
   Pry.start
 end
 
-task:environment
+task:environment do
   require_relative './config/environment'
 end
 
