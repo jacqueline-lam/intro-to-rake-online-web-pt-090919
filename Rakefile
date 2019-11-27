@@ -15,6 +15,8 @@ task :console do
 end
 
 task:environment
+  require_relative './config/environment'
+end
 
 namespace :db do 
   task :migrate do
