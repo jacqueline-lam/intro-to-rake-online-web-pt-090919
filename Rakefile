@@ -14,6 +14,8 @@ task :console do
   Pry.start
 end
 
+task:environment
+
 namespace :db do 
   task :migrate do
     desc 'migrate changes to your database'
